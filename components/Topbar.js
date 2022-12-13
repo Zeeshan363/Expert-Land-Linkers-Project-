@@ -5,7 +5,7 @@ function Topbar() {
       <div className="border-2 ml-5">
         {/*Icon */}
         <BsTelephone />
-        <p className="text-primaryColor">+923111111</p>
+        <p className="text-primaryColor">+92311111177238738738</p>
       </div>
       <div className="border-2 border-darkColor mr-5">
         <button className="font-fancy bg-primaryColor text-lightColor py-[2px] px-4 rounded-lg">
