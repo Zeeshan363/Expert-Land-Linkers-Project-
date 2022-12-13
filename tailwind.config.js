@@ -11,9 +11,9 @@ module.exports = {
       },
     },
     colors: {
-      primary: "#A51818",
-      light: "#FFFFFF",
-      dark: "#1A1A1A",
+      primaryColor: "#A51818",
+      lightColor: "#FFFFFF",
+      darkColor: "#1A1A1A",
     },
   },
   plugins: [],
