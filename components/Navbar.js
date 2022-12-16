@@ -15,25 +15,25 @@ const Navbar = () => (
         </div>
         <div className="flex justify-between items-center">
           <div className="lg:flex">
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold lg:text-primaryColor">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold lg:text-primaryColor">
               HOME
             </span>
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
               ABOUT US
             </span>
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
               OUR PROJECTS
             </span>
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
               OUR TEAM
             </span>
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
               CAREER
             </span>
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
               BLOGS
             </span>
-            <span className="hidden lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+            <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
               CONTACT US
             </span>
           </div>

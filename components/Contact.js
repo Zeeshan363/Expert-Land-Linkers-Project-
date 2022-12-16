@@ -1,8 +1,10 @@
-import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
     <>
+      <Navbar />
       <div className="w-[90%] mx-[5%] md:w-[80%] md:mx-[10%] xl:w-[70%] xl:mx-[15%]">
         <h1 className="text-4xl font-bold text-center font-fancy leading-none px-10 md:text-5xl sm:my-2 md:my-4 lg:my-10">
           We Are Located
@@ -150,6 +152,7 @@ const Contact = () => {
           {/* box end here */}
         </div>
       </div>
+      <Footer />
     </>
   );
 };

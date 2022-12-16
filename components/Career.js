@@ -1,11 +1,18 @@
 import { GoSearch } from "react-icons/go";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Career = () => {
   return (
     <>
-      <div className="mb-20 w-[90%] mx-[5%] sm:w-[80%] sm:mx-[10%]">
-        <div className="h-10 w-60 border flex items-center mt-10">
-          <input className="pr-8 text-md" type="text" placeholder="Search" />
+      <Navbar />
+      <div className="mb-20 w-[90%] font-fancy mx-[5%] sm:w-[80%] sm:mx-[10%]">
+        <div className="h-10 w-64 border border-gray flex items-center mt-10 focus-within:border-2 focus-within:border-black">
+          <input
+            className="pr-8 text-md ml-1"
+            type="text"
+            placeholder="Search"
+          />
           <GoSearch />
         </div>
         {/* After search small blocks */}
@@ -35,6 +42,7 @@ const Career = () => {
         </div>
         {/* After search small blocks */}
       </div>
+      <Footer />
     </>
   );
 };

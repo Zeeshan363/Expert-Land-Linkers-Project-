@@ -20,6 +20,7 @@ module.exports = {
       white: "#FFFFFF",
       gray: "#D3D3D3",
       darkGray: "#5A5A5A",
+      lightGray: "#F5F5F5",
     },
     backgroundImage: {
       queries: "url('/Pictures/queriesbg.jpg')",

@@ -21,7 +21,7 @@ const HomeSectionThreeChoose = () => {
           <div className="border border-gray bg-white rounded-lg mb-10 shadow-lg shadow-boxShadow md:w-[300px] md:flex md:flex-col md:items-center md:py-5 xl:w-[360px]">
             <div className="relative flex flex-col">
               <img
-                className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px]"
+                className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
                 src="./Pictures/why-choose-us1.png"
                 alt=""
               />
@@ -42,7 +42,7 @@ const HomeSectionThreeChoose = () => {
           <div className="border border-gray bg-white rounded-lg mb-10 shadow-lg shadow-boxShadow md:w-[300px] md:flex md:flex-col md:items-center md:py-5 xl:w-[360px]">
             <div className="relative flex flex-col">
               <img
-                className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px]"
+                className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
                 src="./Pictures/why-choose-us2.jpg"
                 alt=""
               />
@@ -63,7 +63,7 @@ const HomeSectionThreeChoose = () => {
           <div className="border border-gray bg-white rounded-lg mb-10 shadow-lg shadow-boxShadow md:w-[300px] md:flex md:flex-col md:items-center md:py-5 xl:w-[360px]">
             <div className="relative flex flex-col">
               <img
-                className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px]"
+                className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
                 src="./Pictures/why-choose-us3.jpg"
                 alt=""
               />

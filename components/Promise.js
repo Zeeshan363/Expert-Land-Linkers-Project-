@@ -3,7 +3,7 @@ import React from "react";
 const Promise = () => {
   return (
     <>
-      <div className="w-[90%] mx-[5%] font-fancy sm:w-[80%] sm:mx-[10%] md:w-[90%] md:mx-[5%] xl:w-[80%] xl:mx-[10%]">
+      <div className="mt-10 w-[90%] mx-[5%] font-fancy sm:w-[80%] sm:mx-[10%] md:w-[90%] md:mx-[5%] xl:w-[80%] xl:mx-[10%]">
         <div className="mb-10">
           <h1 className="text-2xl font-bold text-center px-2">
             Our promise is to be with you in every step of Real Estate

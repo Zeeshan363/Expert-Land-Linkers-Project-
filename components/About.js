@@ -1,13 +1,14 @@
 import { img } from "react-icons/gi";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const About = () => (
   <>
+    <Navbar />
     <div className="w-[90%] mx-[5%] font-fancy my-20 sm:w-[80%] sm:mx-[10%] lg:w-[90%] lg:mx-[5%] xl:w-[80%] xl:mx-[10%]">
       {/* about text is here  */}
       <div>
-        <h1 className="text-3xl font-bold hidden sm:my-5 sm:block">
-          About Topline Marketing
-        </h1>
+        <h1 className="text-3xl font-bold sm:my-5 ">About Topline Marketing</h1>
         <p className="leading-7 text-lg">
           Topline Marketing stepped into Real Estate Market with the conviction
           of changing the image of this field in Pakistan. Over the last 27
@@ -66,7 +67,7 @@ const About = () => (
       </div>
 
       {/* ceo  */}
-      <div className="my-10 md:flex md:justify-around">
+      <div className="my-10 md:flex md:justify-around lg:mt-20">
         <div className="my-5 md:w-[45%] lg:w-[350px] lg:h-[350px]">
           <img src="./Pictures/ceo.jpg" alt="" />
         </div>
@@ -83,6 +84,7 @@ const About = () => (
         </div>
       </div>
     </div>
+    <Footer />
   </>
 );
 
