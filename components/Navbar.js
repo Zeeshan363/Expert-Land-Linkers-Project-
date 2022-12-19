@@ -1,6 +1,7 @@
 import React from "react";
 import { FiMenu } from "react-icons/fi";
 import { BsSearch } from "react-icons/bs";
+import Link from "next/link";
 
 const Navbar = () => (
   <>
@@ -16,25 +17,26 @@ const Navbar = () => (
         <div className="flex justify-between items-center">
           <div className="lg:flex">
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold lg:text-primaryColor">
-              HOME
+              <Link href="/home">HOME</Link>
             </span>
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
-              ABOUT US
+              <Link href="/aboutus">ABOUT US</Link>
             </span>
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
+              {/* <Link href="">Our Projects</Link> */}
               OUR PROJECTS
             </span>
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
-              OUR TEAM
+              <Link href="/team">OUR TEAM</Link>
             </span>
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
-              CAREER
+              <Link href="/careers">CAREER</Link>
             </span>
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
-              BLOGS
+              <Link href="/blog">BLOGS</Link>
             </span>
             <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
-              CONTACT US
+              <Link href="/contactus">CONTACT US</Link>
             </span>
           </div>
           <FiMenu className="h-10 w-10 md:h-14 md:w-14 lg:hidden" />
