@@ -46,3 +46,5 @@ const Navbar = () => (
 );
 
 export default Navbar;
+
+// A comment to check git push is working or not.
