@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const HomeSectionThreeChoose = () => {
   return (
@@ -20,9 +21,11 @@ const HomeSectionThreeChoose = () => {
           {/* box */}
           <div className="border border-gray bg-white rounded-lg mb-10 shadow-lg shadow-boxShadow md:w-[300px] md:flex md:flex-col md:items-center md:py-5 xl:w-[360px]">
             <div className="relative flex flex-col">
-              <img
+              <Image
+                width="1000"
+                height="1000"
                 className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
-                src="./Pictures/why-choose-us1.png"
+                src="/./Pictures/why-choose-us1.png"
                 alt=""
               />
               <p className="bg-primaryColor text-white h-20 w-20 border rounded-[50%] flex justify-center items-center absolute right-[65%] top-[90%] sm:h-28 sm:w-28 md:h-20 md:w-20">
@@ -41,9 +44,11 @@ const HomeSectionThreeChoose = () => {
           {/* box */}
           <div className="border border-gray bg-white rounded-lg mb-10 shadow-lg shadow-boxShadow md:w-[300px] md:flex md:flex-col md:items-center md:py-5 xl:w-[360px]">
             <div className="relative flex flex-col">
-              <img
+              <Image
+                width="1000"
+                height="1000"
                 className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
-                src="./Pictures/why-choose-us2.jpg"
+                src="/./Pictures/why-choose-us2.jpg"
                 alt=""
               />
               <p className="bg-primaryColor text-white h-20 w-20 border rounded-[50%] flex justify-center items-center absolute right-[65%] top-[90%] sm:h-28 sm:w-28 md:h-20 md:w-20">
@@ -62,9 +67,11 @@ const HomeSectionThreeChoose = () => {
           {/* box */}
           <div className="border border-gray bg-white rounded-lg mb-10 shadow-lg shadow-boxShadow md:w-[300px] md:flex md:flex-col md:items-center md:py-5 xl:w-[360px]">
             <div className="relative flex flex-col">
-              <img
+              <Image
+                width="1000"
+                height="1000"
                 className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
-                src="./Pictures/why-choose-us3.jpg"
+                src="/./Pictures/why-choose-us3.jpg"
                 alt=""
               />
               <p className="bg-primaryColor text-white h-20 w-20 border rounded-[50%] flex justify-center items-center absolute right-[65%] top-[90%] sm:h-28 sm:w-28 md:h-20 md:w-20">

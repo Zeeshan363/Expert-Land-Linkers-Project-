@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Image from "next/image";
 
 const Blogs = () => {
   return (
@@ -11,9 +12,11 @@ const Blogs = () => {
         {/* box here  */}
         <div className="font-fancy w-[85%] text-center mx-auto border border-white bg-lightGray my-10 sm:w-[80%] sm:mx-auto md:w-[45%] lg:w-[48%]">
           <div>
-            <img
+            <Image
+              width="1000"
+              height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="./Pictures/blog.jpg"
+              src="/./Pictures/blog.jpg"
               alt=""
             />
           </div>
@@ -32,9 +35,11 @@ const Blogs = () => {
         {/* box here  */}
         <div className="font-fancy w-[85%] text-center mx-auto border border-white bg-lightGray my-10 sm:w-[80%] sm:mx-auto md:w-[45%] lg:w-[48%]">
           <div>
-            <img
+            <Image
+              width="1000"
+              height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="./Pictures/blog.jpg"
+              src="/./Pictures/blog.jpg"
               alt=""
             />
           </div>
@@ -53,9 +58,11 @@ const Blogs = () => {
         {/* box here  */}
         <div className="font-fancy w-[85%] text-center mx-auto border border-white bg-lightGray my-10 sm:w-[80%] sm:mx-auto md:w-[45%] lg:w-[48%]">
           <div>
-            <img
+            <Image
+              width="1000"
+              height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="./Pictures/blog.jpg"
+              src="/./Pictures/blog.jpg"
               alt=""
             />
           </div>
@@ -74,9 +81,11 @@ const Blogs = () => {
         {/* box here  */}
         <div className="font-fancy w-[85%] text-center mx-auto border border-white bg-lightGray my-10 sm:w-[80%] sm:mx-auto md:w-[45%] lg:w-[48%]">
           <div>
-            <img
+            <Image
+              width="1000"
+              height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="./Pictures/blog.jpg"
+              src="/./Pictures/blog.jpg"
               alt=""
             />
           </div>

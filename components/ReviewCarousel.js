@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -21,7 +22,7 @@ export default class DemoCarousel extends Component {
           <div className="    bg-white w-[100%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -42,7 +43,7 @@ export default class DemoCarousel extends Component {
           <div className="  bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -63,7 +64,7 @@ export default class DemoCarousel extends Component {
           <div className="  bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -86,7 +87,7 @@ export default class DemoCarousel extends Component {
           <div className="    bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -107,7 +108,7 @@ export default class DemoCarousel extends Component {
           <div className="  bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -128,7 +129,7 @@ export default class DemoCarousel extends Component {
           <div className="  bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -151,7 +152,7 @@ export default class DemoCarousel extends Component {
           <div className="    bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -172,7 +173,7 @@ export default class DemoCarousel extends Component {
           <div className="  bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -193,7 +194,7 @@ export default class DemoCarousel extends Component {
           <div className="  bg-white w-[33%] px-3  border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[32%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""

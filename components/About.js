@@ -1,6 +1,7 @@
 import { img } from "react-icons/gi";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Image from "next/image";
 
 const About = () => (
   <>
@@ -25,9 +26,11 @@ const About = () => (
       <div className="my-10 mb-10 md:flex md:justify-center">
         {/* offer  */}
         <div className="flex flex-col items-center justify-center text-center md:mx-5">
-          <img
+          <Image
+            width="1000"
+            height="1000"
             className="h-14 w-14 mt-10"
-            src="./Pictures/about-us-offer1.png"
+            src="/./Pictures/about-us-offer1.png"
             alt="icons"
           />
           <h1 className="text-2xl font-bold my-5">Investment Consultants</h1>
@@ -39,9 +42,11 @@ const About = () => (
 
         {/* offer  */}
         <div className="flex flex-col items-center justify-center text-center md:mx-5">
-          <img
+          <Image
+            width="1000"
+            height="1000"
             className="h-14 w-14 mt-10"
-            src="./Pictures/about-us-offer2.png"
+            src="/./Pictures/about-us-offer2.png"
             alt="icons"
           />
           <h1 className="text-2xl font-bold my-5">Investment Consultants</h1>
@@ -53,9 +58,11 @@ const About = () => (
 
         {/* offer  */}
         <div className="flex flex-col items-center justify-center text-center md:mx-5">
-          <img
+          <Image
+            width="1000"
+            height="1000"
             className="h-14 w-14 mt-10"
-            src="./Pictures/about-us-offer3.png"
+            src="/./Pictures/about-us-offer3.png"
             alt="icons"
           />
           <h1 className="text-2xl font-bold my-5">Investment Consultants</h1>
@@ -69,7 +76,7 @@ const About = () => (
       {/* ceo  */}
       <div className="my-10 md:flex md:justify-around lg:mt-20">
         <div className="my-5 md:w-[45%] lg:w-[350px] lg:h-[350px]">
-          <img src="./Pictures/ceo.jpg" alt="" />
+          <Image width="1000" height="1000" src="/./Pictures/ceo.jpg" alt="" />
         </div>
         <div className="md:w-[45%]">
           <p className="text-lg font-bold my-5 md:text-xl ">

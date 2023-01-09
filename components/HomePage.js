@@ -15,7 +15,6 @@ const HomePage = () => {
       <BoxesHome />
       <HomeSectionThreeChoose />
       <Promise />
-      {/* <Reviews /> */}
       <Queries />
       <Footer />
     </>
@@ -23,3 +22,7 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+{
+  /* <Reviews /> */
+}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Promise = () => {
@@ -12,7 +13,13 @@ const Promise = () => {
         <div className="bg-white border-boxesColor  my-5 border shadow-boxShadow shadow-xl md:flex">
           {/* promise */}
           <div className="flex flex-col justify-center items-center my-5 px-5">
-            <img className="my-5" src="./Pictures/promise1.png" alt="" />
+            <Image
+              width="100"
+              height="100"
+              className="my-5"
+              src="/./Pictures/promise1.png"
+              alt=""
+            />
             <h2 className="font-bold text-lg">Our Mission</h2>
             <p className="text-center my-3">
               The best Real Estate Services to our customers, with the best
@@ -22,7 +29,13 @@ const Promise = () => {
 
           {/* promise */}
           <div className="flex flex-col justify-center items-center my-5 px-5">
-            <img className="my-5" src="./Pictures/promise2.png" alt="" />
+            <Image
+              width="100"
+              height="100"
+              className="my-5"
+              src="/./Pictures/promise2.png"
+              alt=""
+            />
             <h2 className="font-bold text-lg">Our Mission</h2>
             <p className="text-center my-3">
               The best Real Estate Services to our customers, with the best
@@ -32,7 +45,13 @@ const Promise = () => {
 
           {/* promise */}
           <div className="flex flex-col justify-center items-center my-5 px-5">
-            <img className="my-5" src="./Pictures/promise3.png" alt="" />
+            <Image
+              width="100"
+              height="100"
+              className="my-5"
+              src="/./Pictures/promise3.png"
+              alt=""
+            />
             <h2 className="font-bold text-lg">Our Mission</h2>
             <p className="text-center my-3">
               The best Real Estate Services to our customers, with the best

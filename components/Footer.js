@@ -1,4 +1,5 @@
 import { MdLocationPin } from "react-icons/md";
+import Image from "next/image";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineFacebook } from "react-icons/ai";
@@ -14,7 +15,13 @@ const Footer = () => {
         <div className="w-[90%] mx-[5%] pb-10 sm:w-[80%] sm:mx-[10%] md:w-[90%] md:mx-[5%] md:flex md:justify-around md:flex-wrap lg:w-[95%] lg:mx-[2.5%] xl:w-[80%] xl:mx-[10%]">
           {/* Log0-end */}
           <div className="my-14 md:w-[40%] lg:w-[23%]">
-            <img className="w-[40%]" src="./Pictures/logo-end.png" alt="" />
+            <Image
+              width="1000"
+              height="1000"
+              className="w-[40%]"
+              src="/./Pictures/logo-end.png"
+              alt=""
+            />
             <p className="my-5 lg:pr-5 xl:pr-10">
               We provide a one-stop solution for all sales and marketing
               activities of your project. We guarantee the successful delivery

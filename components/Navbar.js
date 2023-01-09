@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { BsSearch } from "react-icons/bs";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,9 +12,11 @@ const Navbar = () => {
       <div className="sticky top-0 right-0 left-0 z-10 bg-white ">
         <div className="w-[90%] mx-[5%] flex justify-between items-center py-5 md:py-5 lg:py-10 xl:w-[80%] xl:mx-[10%] xl:py-5">
           <div>
-            <img
+            <Image
+              width="1000"
+              height="1000"
               className="h-[75px] w-[75px] md:h-[120px] md:w-[120px] lg:h-[75px] lg:w-[75px]"
-              src="./Pictures/logo.png"
+              src="/./Pictures/logo.png"
               alt="logo"
             />
           </div>
@@ -26,7 +29,6 @@ const Navbar = () => {
                 <Link href="/aboutus">ABOUT US</Link>
               </span>
               <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
-                {/* <Link href="">Our Projects</Link> */}
                 OUR PROJECTS
               </span>
               <span className="hidden hover:text-primaryColor hover:cursor-pointer lg:block lg:px-4 lg:py-2 lg:text-sm lg:font-semibold">
@@ -52,30 +54,51 @@ const Navbar = () => {
           </div>
         </div>
         {toggle && (
-          <div className="absolute h-screen py-10 md:py-20 opacity-80 font-bold top-20 lg:hidden z-10 bg-white">
-            <ul className="w-screen text-center">
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                COMPANY
-              </li>
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                ABOUT
-              </li>
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                PROJECT
-              </li>
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                TEAM
-              </li>
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                CAREERS
-              </li>
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                CONTACT
-              </li>
-              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                BLOGS
-              </li>
-            </ul>
+          <div className="absolute h-screen py-10 flex flex-col w-screen text-center md:py-20 opacity-80 font-bold top-20 lg:hidden z-10 bg-white">
+            {/* <ul className="w-screen text-center"> */}
+            <Link
+              href="/home"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              Home
+            </Link>
+            <Link
+              href="/aboutus"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              ABOUT
+            </Link>
+            <Link
+              href="/home"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              OUR PROJECT
+            </Link>
+            <Link
+              href="/team"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              TEAM
+            </Link>
+            <Link
+              href="/careers"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              CAREERS
+            </Link>
+            <Link
+              href="/blog"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              BLOGS
+            </Link>
+            <Link
+              href="/contactus"
+              className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white"
+            >
+              CONTACT
+            </Link>
+            {/* </ul> */}
           </div>
         )}
       </div>

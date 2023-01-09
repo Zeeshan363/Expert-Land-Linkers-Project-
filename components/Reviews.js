@@ -1,4 +1,6 @@
+import Image from "next/image";
 import ReviewCarousel from "./ReviewCarousel";
+
 const Reviews = () => {
   return (
     <>
@@ -18,7 +20,7 @@ const Reviews = () => {
           {/* <div className="w-[90%] mx-[5%] bg-white px-3 border-2 border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[25%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
               .
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
@@ -38,7 +40,7 @@ const Reviews = () => {
           </div> */}
           {/* <div className="w-[90%] mx-[5%] bg-white px-3 border-2 border-black h-[320px] text-black  sm:px-5 md:h-[280px] lg:w-[25%] lg:left-0 lg:h-[350px] lg:top-[30%] xl:h-[400px] 2xl:h-[380%]">
             <div className="flex my-3 sm:my-5">
-              <img
+              <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
                 src="./Pictures/review1.jpg"
                 alt=""
