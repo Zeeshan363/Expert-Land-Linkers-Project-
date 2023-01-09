@@ -58,19 +58,22 @@ const Navbar = () => {
                 COMPANY
               </li>
               <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                SERVICES
+                ABOUT
               </li>
               <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                WORK
+                PROJECT
               </li>
               <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
-                INSIGHTS
+                TEAM
               </li>
               <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
                 CAREERS
               </li>
               <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
                 CONTACT
+              </li>
+              <li className=" py-3 tracking-wider cursor-pointer hover:bg-[#A51818] hover:text-white">
+                BLOGS
               </li>
             </ul>
           </div>
