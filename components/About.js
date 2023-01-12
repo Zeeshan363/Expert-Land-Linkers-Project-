@@ -2,6 +2,10 @@ import { img } from "react-icons/gi";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Image from "next/image";
+import aboutUsOffer1 from "../public/Pictures/about-us-offer1.png";
+import aboutUsOffer2 from "../public/Pictures/about-us-offer2.png";
+import aboutUsOffer3 from "../public/Pictures/about-us-offer3.png";
+import CEO from "../public/Pictures/ceo.jpg";
 
 const About = () => (
   <>
@@ -30,7 +34,7 @@ const About = () => (
             width="1000"
             height="1000"
             className="h-14 w-14 mt-10"
-            src="/./Pictures/about-us-offer1.png"
+            src={aboutUsOffer1}
             alt="icons"
           />
           <h1 className="text-2xl font-bold my-5">Investment Consultants</h1>
@@ -46,7 +50,7 @@ const About = () => (
             width="1000"
             height="1000"
             className="h-14 w-14 mt-10"
-            src="/./Pictures/about-us-offer2.png"
+            src={aboutUsOffer2}
             alt="icons"
           />
           <h1 className="text-2xl font-bold my-5">Investment Consultants</h1>
@@ -62,7 +66,7 @@ const About = () => (
             width="1000"
             height="1000"
             className="h-14 w-14 mt-10"
-            src="/./Pictures/about-us-offer3.png"
+            src={aboutUsOffer3}
             alt="icons"
           />
           <h1 className="text-2xl font-bold my-5">Investment Consultants</h1>
@@ -76,7 +80,7 @@ const About = () => (
       {/* ceo  */}
       <div className="my-10 md:flex md:justify-around lg:mt-20">
         <div className="my-5 md:w-[45%] lg:w-[350px] lg:h-[350px]">
-          <Image width="1000" height="1000" src="/./Pictures/ceo.jpg" alt="" />
+          <Image width="1000" height="1000" src={CEO} alt="" />
         </div>
         <div className="md:w-[45%]">
           <p className="text-lg font-bold my-5 md:text-xl ">

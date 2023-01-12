@@ -1,5 +1,8 @@
 import Image from "next/image";
 import React from "react";
+import promise1 from "../public/Pictures/promise1.png";
+import promise2 from "../public/Pictures/promise2.png";
+import promise3 from "../public/Pictures/promise3.png";
 
 const Promise = () => {
   return (
@@ -17,7 +20,7 @@ const Promise = () => {
               width="100"
               height="100"
               className="my-5"
-              src="/./Pictures/promise1.png"
+              src={promise1}
               alt=""
             />
             <h2 className="font-bold text-lg">Our Mission</h2>
@@ -33,7 +36,7 @@ const Promise = () => {
               width="100"
               height="100"
               className="my-5"
-              src="/./Pictures/promise2.png"
+              src={promise2}
               alt=""
             />
             <h2 className="font-bold text-lg">Our Mission</h2>
@@ -49,7 +52,7 @@ const Promise = () => {
               width="100"
               height="100"
               className="my-5"
-              src="/./Pictures/promise3.png"
+              src={promise3}
               alt=""
             />
             <h2 className="font-bold text-lg">Our Mission</h2>

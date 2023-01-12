@@ -3,6 +3,7 @@ import { FiMenu } from "react-icons/fi";
 import { BsSearch } from "react-icons/bs";
 import Link from "next/link";
 import Image from "next/image";
+import logo from "../public/Pictures/logo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
               width="1000"
               height="1000"
               className="h-[75px] w-[75px] md:h-[120px] md:w-[120px] lg:h-[75px] lg:w-[75px]"
-              src="/./Pictures/logo.png"
+              src={logo}
               alt="logo"
             />
           </div>

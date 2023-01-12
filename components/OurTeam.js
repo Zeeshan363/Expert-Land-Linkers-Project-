@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import team from "../public/Pictures/team1.jpg";
 
 const OurTeam = () => {
   return (
@@ -14,7 +15,7 @@ const OurTeam = () => {
               width="1000"
               height="1000"
               className="w-[100%] h-[90%]"
-              src="/./Pictures/team1.jpg"
+              src={team}
               alt=""
             />
             <h1>Jawad Amin</h1>
@@ -27,7 +28,7 @@ const OurTeam = () => {
               width="1000"
               height="1000"
               className="w-[100%] h-[90%]"
-              src="/./Pictures/team1.jpg"
+              src={team}
               alt=""
             />
             <h1>Jawad Amin</h1>
@@ -40,7 +41,7 @@ const OurTeam = () => {
               width="1000"
               height="1000"
               className="w-[100%] h-[90%]"
-              src="/./Pictures/team1.jpg"
+              src={team}
               alt=""
             />
             <h1>Jawad Amin</h1>
@@ -53,7 +54,7 @@ const OurTeam = () => {
               width="1000"
               height="1000"
               className="w-[100%] h-[90%]"
-              src="/./Pictures/team1.jpg"
+              src={team}
               alt=""
             />
             <h1>Jawad Amin</h1>

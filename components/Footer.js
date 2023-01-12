@@ -7,6 +7,7 @@ import { RxTwitterLogo } from "react-icons/rx";
 import { BsLinkedin } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import { GrInstagram } from "react-icons/gr";
+import logoEnd from "../public/Pictures/logo-end.png";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
               width="1000"
               height="1000"
               className="w-[40%]"
-              src="/./Pictures/logo-end.png"
+              src={logoEnd}
               alt=""
             />
             <p className="my-5 lg:pr-5 xl:pr-10">

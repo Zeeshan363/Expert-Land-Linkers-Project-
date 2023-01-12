@@ -1,4 +1,6 @@
 import Image from "next/image";
+import frontImgVert from "../public/Pictures/front-img-vert.jpg";
+import frontImgHori from "../public/Pictures/front-img-hori.jpg";
 
 const Banner = () => {
   return (
@@ -10,14 +12,14 @@ const Banner = () => {
             width="1000"
             height="1000"
             className="w-[100%] md:hidden"
-            src="/./Pictures/front-img-vertical.jfif"
+            src={frontImgVert}
             alt=""
           />
           <Image
             width="1000"
             height="1000"
             className="hidden w-[100%] md:block"
-            src="/./Pictures/front-img-hori.jfif"
+            src={frontImgHori}
             alt=""
           />
         </div>

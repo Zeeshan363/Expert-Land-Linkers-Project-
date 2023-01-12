@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Image from "next/image";
+import blog from "../public/Pictures/blog.jpg";
 
 const Blogs = () => {
   return (
@@ -16,7 +17,7 @@ const Blogs = () => {
               width="1000"
               height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="/./Pictures/blog.jpg"
+              src={blog}
               alt=""
             />
           </div>
@@ -39,7 +40,7 @@ const Blogs = () => {
               width="1000"
               height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="/./Pictures/blog.jpg"
+              src={blog}
               alt=""
             />
           </div>
@@ -62,7 +63,7 @@ const Blogs = () => {
               width="1000"
               height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="/./Pictures/blog.jpg"
+              src={blog}
               alt=""
             />
           </div>
@@ -85,7 +86,7 @@ const Blogs = () => {
               width="1000"
               height="1000"
               className="hover:scale-105 hover:duration-500"
-              src="/./Pictures/blog.jpg"
+              src={blog}
               alt=""
             />
           </div>

@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import whyChooseUs1 from "../public/Pictures/why-choose-us1.png";
+import whyChooseUs2 from "../public/Pictures/why-choose-us2.jpg";
+import whyChooseUs3 from "../public/Pictures/why-choose-us3.jpg";
 
 const HomeSectionThreeChoose = () => {
   return (
@@ -25,7 +28,7 @@ const HomeSectionThreeChoose = () => {
                 width="1000"
                 height="1000"
                 className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
-                src="/./Pictures/why-choose-us1.png"
+                src={whyChooseUs1}
                 alt=""
               />
               <p className="bg-primaryColor text-white h-20 w-20 border rounded-[50%] flex justify-center items-center absolute right-[65%] top-[90%] sm:h-28 sm:w-28 md:h-20 md:w-20">
@@ -48,7 +51,7 @@ const HomeSectionThreeChoose = () => {
                 width="1000"
                 height="1000"
                 className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
-                src="/./Pictures/why-choose-us2.jpg"
+                src={whyChooseUs2}
                 alt=""
               />
               <p className="bg-primaryColor text-white h-20 w-20 border rounded-[50%] flex justify-center items-center absolute right-[65%] top-[90%] sm:h-28 sm:w-28 md:h-20 md:w-20">
@@ -71,7 +74,7 @@ const HomeSectionThreeChoose = () => {
                 width="1000"
                 height="1000"
                 className="rounded-lg md:h-56 md:w-[275px] xl:w-[320px] hover:animate-bounce"
-                src="/./Pictures/why-choose-us3.jpg"
+                src={whyChooseUs3}
                 alt=""
               />
               <p className="bg-primaryColor text-white h-20 w-20 border rounded-[50%] flex justify-center items-center absolute right-[65%] top-[90%] sm:h-28 sm:w-28 md:h-20 md:w-20">

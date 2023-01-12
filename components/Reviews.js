@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ReviewCarousel from "./ReviewCarousel";
+import review1 from "../public/Pictures/review1.jpg";
 
 const Reviews = () => {
   return (
@@ -22,7 +23,7 @@ const Reviews = () => {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -42,7 +43,7 @@ const Reviews = () => {
             <div className="flex my-3 sm:my-5">
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>

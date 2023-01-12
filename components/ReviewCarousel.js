@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import review1 from "../public/Pictures/review1.jpg";
 import { Carousel } from "react-responsive-carousel";
 
 export default class DemoCarousel extends Component {
@@ -24,7 +25,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -45,7 +46,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -66,7 +67,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -89,7 +90,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -110,7 +111,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -131,7 +132,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -154,7 +155,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -175,7 +176,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
@@ -196,7 +197,7 @@ export default class DemoCarousel extends Component {
               .
               <Image
                 className="h-[100px] w-[100px] rounded-[50%]"
-                src="./Pictures/review1.jpg"
+                src={review1}
                 alt=""
               />
               <h1 className="text-xl">Jalal khan 1</h1>
